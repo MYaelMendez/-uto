@@ -1,26 +1,73 @@
-# Phase 0 Deliverable
+# agentic-n8n · Molt.n8n
 
-## Overview
-This is the README for the Phase 0 deliverable, which includes information about the project and how to get started.
+**Agentic Elektronic DAOLLC** execution harness  
+Forked from n8n · now the sovereign orchestrator for the agent economy
 
-## Installation
-To install this project, clone the repository:
+## Mission
+
+We are not building another automation tool.  
+We are building the **decentralized will** layer for the agent economy.
+
+Agents run the stores.  
+Humans issue commands.  
+Communities own the rules.  
+Revenue is tokenized and redistributed via $Æ.
+
+This fork transforms n8n into the central harness that:
+- Executes fractal code mode loops
+- Runs DAGMO maintenance swarms
+- Launches & meters æ.store agents
+- Bridges to DAOLLC treasury & governance
+
+## Quick Start (self-host)
 
 ```bash
-git clone https://github.com/MYaelMendez/-uto.git
+# Clone the fork
+git clone https://github.com/MYaelMendez/agentic-n8n.git
+cd agentic-n8n
+
+# Install
+npm install
+
+# Run locally (dev mode)
+npm run dev
+
+# Build & start production
+npm run build
+npm run start
 ```
 
-## Usage
-You can start using the project by following these steps:
-1. Navigate to the project directory.
-2. Run the application with the following command:
+Or with Docker (recommended):
 
 ```bash
-npm start
+docker-compose up -d
 ```
 
-## Contributing
-Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file for more information on how to contribute to this project.
+Open http://localhost:5678 → welcome to agentic-n8n
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Hello Agent Demo (first workflow)
+1. Start the fork (`npm run dev`)
+2. Open http://localhost:5678
+3. Import workflow from `/examples/hello-agent.json`
+4. Execute → see fractal simulation output
+
+## Core Custom Nodes (Phase 0)
+- FractalExecutor — LLM writes code → Rust sandbox executes → result feedback loop
+- DagmoBountyCreator — Triggers GitHub issue bounties via Worker
+- TreasuryBridge — Meters $Æ cost → Safe multisig payout
+
+## Roadmap Highlights
+Phase 0 – Foundation (now)  
+Phase 1 – Core Harness (next 3 months)  
+Phase 2 – æ.store Marketplace (months 3–6)  
+Phase 3 – DAO Governance (months 6–9)  
+Phase 4 – Molt.school Education (months 9–12)  
+Phase 5 – Full Sovereignty (months 12–18)
+
+## Contribute
+- Fork & PR custom nodes
+- Propose workflows for DAGMO or æ.store agents
+- Earn $Æ bounties via DAOLLC governance
+
+Everyone can own the harness.  
+🦞🧶🏛️∞
