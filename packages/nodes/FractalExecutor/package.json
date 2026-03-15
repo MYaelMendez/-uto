@@ -1,0 +1,1 @@
+{"name":"@agentic-n8n/fractal-executor","version":"0.1.0","description":"Fractal Code Mode executor node for agentic-n8n","main":"FractalExecutor.node.ts","keywords":["n8n-community","agentic","fractal","code-mode"],"n8n":{"n8nNodesApiVersion":1,"nodes":["FractalExecutor.node.ts"]}}
